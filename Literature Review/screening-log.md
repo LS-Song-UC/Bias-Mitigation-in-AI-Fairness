@@ -25,6 +25,10 @@ this table.
 | Dwork et al., "Fairness Through Awareness" | Origin of the awareness-over-blindness position | `[found]` |
 | Wolpert — no free lunch | Formal grounding for "inductive bias is necessary" | `[found]` |
 | eGFR race coefficient removal (clinical literature, ~2020-2021) | The hard boundary case; "biological" did not settle it | `[found]` |
+| Kusner et al., "Counterfactual Fairness" | Formalises fairness via causal rather than correlational reasoning — candidate machinery for idea 2 | `[found]` |
+| Nabi & Shpitser — path-specific effects for fairness | Permitting some pathways from a protected attribute and forbidding others; close to the licensed/unlicensed inference split | `[found]` |
+| Pearl — causality / mediation analysis | Underlying formalism for the pathway framing | `[found]` |
+| Statistical discrimination vs taste-based discrimination (economics; Arrow, Phelps) | Prior treatment of "inference from group membership"; predates the ML framing and may pre-empt parts of idea 2 | `[found]` |
 
 ## Searches run
 

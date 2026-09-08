@@ -27,7 +27,19 @@ pointer, not argued with.
 
 ---
 
-## 1. Accurate-but-harmful bias — `[live]`
+## 1. Accurate-but-harmful bias — `[live]` (narrowed)
+
+> **Update.** [`so-what-question.md`](so-what-question.md) relocates harm from
+> representation to the inferential step, which absorbs part of this: the
+> objection no longer lands as "your definition ignores accurate harm", because
+> harm is now about unwarranted *conclusions*, not inaccurate *depiction*.
+>
+> What survives is the narrower case where the extrapolation is evidentially
+> warranted and still harmful. That is now tracked more precisely as objection 1
+> in [`so-what-question-objections.md`](so-what-question-objections.md); this
+> entry stays open only as the definitional half of it.
+
+### Original statement
 
 The fragment grounds harm in *misrepresentation*: improper summarization that
 incorrectly represents demographics. Clean and testable, which is its appeal.
@@ -43,6 +55,10 @@ representational accuracy, or an explicit scope condition — that the research
 addresses representational bias specifically and treats label-generation
 injustice as a distinct problem. The second is a perfectly respectable move and
 much cheaper than the first; it just has to be stated rather than assumed.
+
+The causal-pathway framing raised in idea 2 may supply the second criterion
+without extra machinery, in which case this closes rather than being scoped
+around.
 
 *Note:* this is the objection I would expect a reviewer to raise first, which is
 a claim about reviewers, not about whether the idea is right.

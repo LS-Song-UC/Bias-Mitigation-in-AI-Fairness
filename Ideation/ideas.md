@@ -4,6 +4,18 @@ Newest at the top. See `README.md` for status markers and the promotion gate.
 
 ---
 
+## [thinking] The "So What?" Question
+
+Harm lives in the inferential step, not the identification. Being Asian is
+benign; concluding *bad driver* from it, absent evidence, is the harm. So the
+audit target is the follow-up to identification, not identification itself.
+
+Full note: [`so-what-question.md`](so-what-question.md)
+Stress-tests: [`so-what-question-objections.md`](so-what-question-objections.md)
+
+Pairs with *Definition of Bias*: idea 1 argues against indiscriminate
+mitigation, idea 2 names the alternative.
+
 ## [thinking] Definition of Bias
 
 Bias is agnostic until proven harmful; most inherited bias is benign and
