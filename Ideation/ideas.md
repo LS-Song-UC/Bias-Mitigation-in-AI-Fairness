@@ -4,6 +4,20 @@ Newest at the top. See `README.md` for status markers and the promotion gate.
 
 ---
 
+## [thinking] Proportional Representation
+
+Should a 10% group get exactly 10% of representation/consideration? Posed as an
+open question, scaffolded on legal equality of individual standing. Candidate
+answer from ideas 1-2: proportionality is diagnostic, not owed — a gap is a
+signal to investigate, not a defect to erase.
+
+Full note: [`proportional-representation.md`](proportional-representation.md)
+Stress-tests: [`proportional-representation-objections.md`](proportional-representation-objections.md)
+
+**Recurring across all three ideas:** burden of proof / the operational test for
+harm. It has now surfaced as an open question three times, which suggests it is
+the central problem rather than a loose end.
+
 ## [thinking] The "So What?" Question
 
 Harm lives in the inferential step, not the identification. Being Asian is

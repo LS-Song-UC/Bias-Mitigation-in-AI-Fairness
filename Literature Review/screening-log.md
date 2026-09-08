@@ -29,6 +29,11 @@ this table.
 | Nabi & Shpitser — path-specific effects for fairness | Permitting some pathways from a protected attribute and forbidding others; close to the licensed/unlicensed inference split | `[found]` |
 | Pearl — causality / mediation analysis | Underlying formalism for the pathway framing | `[found]` |
 | Statistical discrimination vs taste-based discrimination (economics; Arrow, Phelps) | Prior treatment of "inference from group membership"; predates the ML framing and may pre-empt parts of idea 2 | `[found]` |
+| US Voting Rights Act §2 — text of the proportional-representation disclaimer | Idea 3 objection 1; may show the legal analogy cuts the other way. **Read the statute itself, not commentary** | `[check]` |
+| SFFA v. Harvard (2023); Regents v. Bakke (1978); Grutter v. Bollinger (2003) | US jurisprudence on quotas vs individualised consideration | `[check]` |
+| Canadian Charter s.15(1) and s.15(2); Andrews; Kapp | Ameliorative programs may be permitted where US law forbids them — the jurisdictional split | `[check]` |
+| Felony disenfranchisement and disparate impact | Idea 3 objection 4; the contested example | `[found]` |
+| Demographic / statistical parity — original formulation | Idea 3 has a direct formal counterpart; establish whether the contribution is the criterion or its justification | `[found]` |
 
 ## Searches run
 
