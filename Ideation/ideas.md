@@ -12,9 +12,7 @@ nothing. The research targets *harmful* bias — conclusions drawn through
 improper summarization that misrepresent demographics.
 
 Full note: [`definition-of-bias.md`](definition-of-bias.md)
-
-**Blocking before promotion:** no operational test for "harmful" yet, and the
-accurate-but-harmful case is unaddressed.
+Stress-tests: [`definition-of-bias-objections.md`](definition-of-bias-objections.md)
 
 ## [raw] Example entry — delete me
 

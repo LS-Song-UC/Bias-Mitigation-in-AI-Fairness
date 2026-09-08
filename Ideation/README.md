@@ -26,6 +26,22 @@ An idea leaves this folder only after we have talked through:
 
 Only then does it get written into `sections/`.
 
+## Objections go in a parallel file
+
+When an idea gets stress-tested, the objections live in
+`<idea>-objections.md`, never inside the idea's own file. Two reasons:
+
+- An idea is a **seed, not a thesis**. Objections written against a fragment in
+  isolation routinely fail to generalize to the research programme, because the
+  framework that answers them is not captured yet. Interleaving them makes a
+  half-formed idea read as a defended position under attack.
+- Ideas need room to stay generative. A file that argues with itself on every
+  line stops being a place to think.
+
+Objections carry their own status: `[live]`, `[resolved]` (with a pointer to
+where), or `[scoped-out]`. Resolving one means noting where the answer lives —
+not re-arguing it.
+
 ## Status markers
 
 Use these in `ideas.md` so the state of each idea is visible at a glance:
