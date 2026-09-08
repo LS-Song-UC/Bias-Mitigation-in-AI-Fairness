@@ -4,6 +4,22 @@ Newest at the top. See `README.md` for status markers and the promotion gate.
 
 ---
 
+## [thinking] Where We Come From, Where We're Going
+
+Adjustment must be measured against its baseline: 5 points on a 1% status quo is
+a 500% change. Impact assessed both ex ante and ex post, both systemically and
+against a reference default.
+
+Full note: [`where-we-come-from-where-were-going.md`](where-we-come-from-where-were-going.md)
+Stress-tests: [`where-we-come-from-where-were-going-objections.md`](where-we-come-from-where-were-going-objections.md)
+
+**Internal tension to resolve:** "positive contribution" presumes a direction
+that ideas 1-4 deliberately withheld. Probably fixable by deriving the sign from
+idea 2/4 machinery, but it must be said explicitly.
+
+**Reference-class problem, 2nd appearance** — "relative to what default?" here,
+"proportional to what population?" in idea 3.
+
 ## [thinking] Unbiased Identification Beyond a Reasonable Doubt
 
 Inference is defeasible, not forbidden: a well-evidenced first hypothesis is

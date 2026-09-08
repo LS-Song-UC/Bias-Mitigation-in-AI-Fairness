@@ -1,0 +1,105 @@
+# Where We Come From, Where We're Going
+
+**Status:** `[thinking]`
+
+---
+
+## The idea (as captured)
+
+Adjustment needs precedence and objective: shifting in the direction of positive
+contribution is the goal. An adjustment of 5% identification/attribution may
+seem small, but it is a 500% increase if the original status quo produces 1%.
+
+Impact assessment is also done, where possible, pre-emptively and post-vivo. In
+other words, impact assessment is evaluated both in macroscopic context and in
+contrast to reference default. In addition, predicted/evaluated social impact,
+when possible, should be determined.
+
+---
+
+## Claim, in one sentence
+
+An adjustment cannot be evaluated in the abstract: its magnitude is meaningful
+only relative to the baseline it moved from, and its value only relative to an
+assessment made both before and after, at both system and baseline scale.
+
+## Why it might matter
+
+It is the **evaluation methodology** the first four ideas need. Ideas 1–4 build a
+framework for deciding what to intervene on; this one asks how to tell whether
+an intervention accomplished anything — and observes that the obvious reading of
+the numbers systematically understates work done on small groups.
+
+That is a real measurement problem, not a rhetorical one. A five-point move on a
+one-percent baseline and a five-point move on a fifty-percent baseline are the
+same number and not remotely the same intervention.
+
+## Formal counterpart
+
+This is the **absolute versus relative effect** distinction, worked out in
+epidemiology and clinical trials: absolute risk reduction against relative risk
+reduction, with number-needed-to-treat as the reconciling quantity. The
+methodological conclusions there are mature and should transfer.
+
+It also maps onto an existing split in fairness metrics:
+
+| Family | Example | Behaviour on small groups |
+|---|---|---|
+| **Ratio** | Disparate impact ratio; the four-fifths rule | Sensitive — captures the 500%, but unstable at small counts |
+| **Difference** | Statistical parity difference; equalised-odds gap | Stable, but flattens exactly the case this idea is about |
+
+The fragment's observation is essentially *why metric family choice matters most
+precisely where the groups are smallest*. That is a defensible contribution if
+stated as such, and it has the advantage of being demonstrable rather than
+merely arguable.
+
+## The reference-default problem — recurring
+
+"In contrast to reference default" raises the question of *which* default: the
+prior system, no system, random allocation, human decision-makers, or the best
+achievable. Each yields a different verdict on the same intervention.
+
+This is the same structural problem as idea 3's "proportional to *what*
+reference population?" — the reference class is doing the decisive work in both.
+**Second appearance of one problem**, which is a signal worth heeding: it may
+deserve treatment in its own right rather than being resolved twice locally.
+
+## Two axes of assessment
+
+The fragment sets out a 2×2 that is worth making explicit, since it is more
+structured than the prose suggests:
+
+| | Before (ex ante) | After (ex post) |
+|---|---|---|
+| **Macroscopic / systemic** | Predicted social impact | Observed systemic effect |
+| **Against reference default** | Projected delta vs baseline | Measured delta vs baseline |
+
+Filling all four cells is a strong protocol. Whether all four are *obtainable* is
+a separate question, and the fragment's "where possible" is doing honest work.
+
+## Possible format
+
+Undecided, but this one has a natural home.
+
+- **Methods / evaluation protocol section.** Most likely.
+- **The 2×2 above**, which is close to publication-ready as a figure and would
+  make the protocol legible at a glance.
+- **A worked numerical example** carrying the 1% → 6% case with both metric
+  families and their uncertainty, showing concretely what each family hides.
+
+Note this is the first idea whose format question is nearly settled by its
+content — evaluation protocols are conventionally tabular.
+
+## Open questions
+
+- Which reference default, and is the choice principled or conventional?
+- How is "positive contribution" signed, given that ideas 1–4 hold that whether
+  a deviation is harmful requires investigation? (See objections.)
+- What uncertainty accompanies a ratio computed on small counts, and how is it
+  reported alongside the headline figure?
+- Who performs the predicted social impact assessment, and what makes it
+  credible?
+
+---
+
+Stress-tests: [`where-we-come-from-where-were-going-objections.md`](where-we-come-from-where-were-going-objections.md).

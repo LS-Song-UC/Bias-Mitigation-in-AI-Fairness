@@ -37,6 +37,11 @@ this table.
 | Keyes, "The Misgendering Machines" (~2018) | The critical literature on automatic gender recognition; idea 4 objection 3. Read before the example is kept | `[found]` |
 | Reiter — default logic; McCarthy — circumscription | Non-monotonic reasoning: conclusions held by default, withdrawn on defeaters. Formal home for idea 4 | `[found]` |
 | Legal standards of proof — BARD / clear and convincing / preponderance | Idea 4 objection 2; the standard invoked must match the threshold set, and its error asymmetry stated | `[check]` |
+| Absolute vs relative risk reduction; number needed to treat (epidemiology / clinical trials) | Mature treatment of idea 5's core measurement point; likely supplies the reporting convention wholesale | `[found]` |
+| EEOC four-fifths rule; disparate impact ratio vs statistical parity difference | The ratio/difference metric split in fairness; idea 5's formal counterpart | `[check]` |
+| Selbst et al., "Fairness and Abstraction in Sociotechnical Systems" (~2019) | The ripple-effect and portability traps; directly relevant to predicted social impact | `[found]` |
+| Metcalf et al. — algorithmic impact assessment; Ada Lovelace Institute AIA work | Institutional design of impact assessment, incl. the self-assessment conflict | `[found]` |
+| Goodhart's law / Strathern formulation | Idea 5 objection 4; predicted-impact scores as targets | `[found]` |
 
 ## Searches run
 
