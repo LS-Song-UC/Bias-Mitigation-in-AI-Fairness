@@ -1,6 +1,7 @@
 # Where We Come From, Where We're Going
 
-**Status:** `[thinking]`
+**Status:** `[thinking]` — amended by the author; see below.
+**Stage:** *treatment*. Presupposes a completed diagnosis.
 
 ---
 
@@ -15,20 +16,50 @@ other words, impact assessment is evaluated both in macroscopic context and in
 contrast to reference default. In addition, predicted/evaluated social impact,
 when possible, should be determined.
 
+## Amendment (author)
+
+Two corrections to the capture above, which is kept verbatim as the record.
+
+**1. This is the treatment stage, not the diagnostic one.** By the time this
+framework applies, the harm has already been identified through diagnosis. Ideas
+1–4 do that work; this one governs what follows once a harm determination is
+complete. It does not decide whether something is harmful, and was never meant
+to.
+
+**2. Identification accuracy is not part of the objective here.** Naming it in
+the captured text was a mistake. The quantity being adjusted is *attribution* —
+the inferential step idea 2 locates harm in. Identification belongs upstream and
+stays there.
+
+So the corrected reading of the example: an adjustment of 5% **in attribution**
+may seem small, but it is a 500% increase against a 1% status quo.
+
+*(Reading to confirm: "attribution" stays in scope because it is the inference
+idea 2 targets, while "identification" leaves. If the intent was to drop both
+and speak only of adjustment magnitude in the abstract, say so and this narrows
+further.)*
+
 ---
 
 ## Claim, in one sentence
 
-An adjustment cannot be evaluated in the abstract: its magnitude is meaningful
-only relative to the baseline it moved from, and its value only relative to an
-assessment made both before and after, at both system and baseline scale.
+Once a harm has been diagnosed, the adjustment that treats it cannot be
+evaluated in the abstract: its magnitude is meaningful only relative to the
+baseline it moved from, and its value only relative to an assessment made both
+before and after, at both system and baseline scale.
 
 ## Why it might matter
 
-It is the **evaluation methodology** the first four ideas need. Ideas 1–4 build a
-framework for deciding what to intervene on; this one asks how to tell whether
-an intervention accomplished anything — and observes that the obvious reading of
-the numbers systematically understates work done on small groups.
+It is the **treatment protocol** the first four ideas need. Ideas 1–4 diagnose:
+they decide whether there is a harm and where it sits. This one begins after
+that verdict, and asks how to tell whether the treatment accomplished anything —
+observing that the obvious reading of the numbers systematically understates
+work done on small groups.
+
+The diagnosis/treatment split matters beyond bookkeeping. It is what keeps this
+idea from re-deciding questions ideas 1–4 answered, and it means the framework
+can be evaluated in two independent halves: whether it diagnoses correctly, and
+whether it treats effectively.
 
 That is a real measurement problem, not a rhetorical one. A five-point move on a
 one-percent baseline and a five-point move on a fifty-percent baseline are the
@@ -93,8 +124,6 @@ content — evaluation protocols are conventionally tabular.
 ## Open questions
 
 - Which reference default, and is the choice principled or conventional?
-- How is "positive contribution" signed, given that ideas 1–4 hold that whether
-  a deviation is harmful requires investigation? (See objections.)
 - What uncertainty accompanies a ratio computed on small counts, and how is it
   reported alongside the headline figure?
 - Who performs the predicted social impact assessment, and what makes it

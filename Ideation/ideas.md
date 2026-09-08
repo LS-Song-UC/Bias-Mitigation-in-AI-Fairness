@@ -2,6 +2,36 @@
 
 Newest at the top. See `README.md` for status markers and the promotion gate.
 
+## Shape so far
+
+The five ideas divide into two stages, and keeping them apart is what stops the
+framework contradicting itself:
+
+    DIAGNOSIS  (ideas 1-4)          TREATMENT  (idea 5)
+    is there a harm, and where?     the harm is established; now what,
+                                    and did it work?
+
+    1. Bias is neutral until        5. Adjustment measured against its
+       shown harmful                   baseline; impact assessed ex ante
+    2. Harm sits in the                and ex post, systemically and
+       inference, not the              against a reference default
+       identification
+    3. Deviation is diagnostic,
+       not automatically a defect
+    4. Inference licensed by
+       default, revisable by duty
+
+Treatment inherits the sign of the adjustment from diagnosis rather than
+assuming it. The two halves can also be evaluated independently: whether the
+framework diagnoses correctly, and whether it treats effectively.
+
+**Problems recurring across ideas — candidates for treatment in their own right:**
+
+- **Burden of proof / operational test for harm** (ideas 1, 2, 3; partly
+  answered by 4). Lives in the diagnosis stage.
+- **The reference class** — proportional to *what* population (3), relative to
+  *what* default (5). Does decisive work in both.
+
 ---
 
 ## [thinking] Where We Come From, Where We're Going
@@ -13,9 +43,11 @@ against a reference default.
 Full note: [`where-we-come-from-where-were-going.md`](where-we-come-from-where-were-going.md)
 Stress-tests: [`where-we-come-from-where-were-going-objections.md`](where-we-come-from-where-were-going-objections.md)
 
-**Internal tension to resolve:** "positive contribution" presumes a direction
-that ideas 1-4 deliberately withheld. Probably fixable by deriving the sign from
-idea 2/4 machinery, but it must be said explicitly.
+**Amended by the author.** Scoped to the *treatment* stage: it presupposes a
+completed diagnosis and inherits the sign of "positive contribution" from ideas
+1-4 rather than assuming it. Identification accuracy removed from the objective
+— attribution is what gets adjusted; identification stays upstream. Internal
+tension resolved.
 
 **Reference-class problem, 2nd appearance** — "relative to what default?" here,
 "proportional to what population?" in idea 3.

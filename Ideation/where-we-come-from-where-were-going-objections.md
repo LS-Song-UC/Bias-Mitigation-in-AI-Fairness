@@ -9,7 +9,27 @@ Scope conventions as in
 
 ---
 
-## 1. "Positive contribution" presumes a direction the framework withheld — `[live]`
+## 1. "Positive contribution" presumes a direction the framework withheld — `[resolved]`
+
+> **Resolved by the author's amendment** in
+> [`where-we-come-from-where-were-going.md`](where-we-come-from-where-were-going.md).
+>
+> This idea is the **treatment** stage and presupposes a completed diagnosis.
+> The sign is not assumed here — it is *inherited* from ideas 1–4, which have
+> already determined that a harm exists and where it sits. "Positive
+> contribution" means movement away from a diagnosed harm, and is
+> sign-determinate for that reason.
+>
+> The amendment also removes identification accuracy from the objective, so the
+> idea no longer competes with idea 4 over the same quantity. Attribution is
+> what gets adjusted; identification stays upstream.
+>
+> This closes the internal-contradiction risk. What remains is a **sequencing
+> dependency**, not an objection: the treatment framework is only as sound as
+> the diagnosis feeding it, so the recurring burden-of-proof question stays live
+> upstream in ideas 1–4. It does not need re-answering here.
+
+### Original statement
 
 The sharpest one, because it is internal rather than external.
 
@@ -28,12 +48,11 @@ assumption the first four ideas spent their effort removing.
 **What it would take to close.** Either derive the direction from the earlier
 machinery — positive means *removal of an unlicensed inference*, which is
 sign-determinate under ideas 2 and 4 — or state that this idea presupposes a
-completed harm determination and only applies downstream of it. The first is
-stronger and probably true to the intent; it just has to be said, because as
-captured the direction floats free.
+completed harm determination and only applies downstream of it.
 
-*This may be the most important single fix across all five ideas: it is the
-point where the framework could contradict itself.*
+*Outcome: the author took the second route, and the first turns out to be
+compatible with it rather than an alternative — the diagnosis supplies the sign,
+the treatment stage consumes it.*
 
 ## 2. Relative framing cuts both ways — `[live]`
 
