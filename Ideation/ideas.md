@@ -2,6 +2,18 @@
 
 Newest at the top. See `README.md` for status markers and the promotion gate.
 
+## Scope
+
+**This is engineering, not ethics.** The research implements bias mitigation as
+*treatment* for standing LLMs and AI systems; it does not argue what is fair.
+See [`scope.md`](scope.md) — it constrains every note here, and the objection
+files have been re-triaged against it.
+
+Consequence for positioning: the formal counterparts to these ideas (demographic
+parity, defeasible reasoning, absolute-vs-relative effect) are **machinery to
+build with**, not rivals to argue against. The contribution is the treatment
+pipeline and its implementation, not a new conception of fairness.
+
 ## Shape so far
 
 The five ideas divide into two stages, and keeping them apart is what stops the
@@ -28,9 +40,17 @@ framework diagnoses correctly, and whether it treats effectively.
 **Problems recurring across ideas — candidates for treatment in their own right:**
 
 - **Burden of proof / operational test for harm** (ideas 1, 2, 3; partly
-  answered by 4). Lives in the diagnosis stage.
+  answered by 4). Lives in the diagnosis stage. Under the engineering scope this
+  hardens into a requirement: the threshold must be *computable at runtime*, or
+  it cannot be implemented.
 - **The reference class** — proportional to *what* population (3), relative to
-  *what* default (5). Does decisive work in both.
+  *what* default (5). Does decisive work in both, and in an implementation it is
+  a parameter someone has to actually set.
+
+**Now the more pressing question:** where treatment attaches. "Standing systems"
+implies no retraining, which narrows the surface to output filtering,
+inference-time steering, in-context correction, and activation editing. That
+choice determines what can be built and measured at all — see `scope.md`.
 
 ---
 

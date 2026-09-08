@@ -4,6 +4,15 @@ Parallel to [`proportional-representation.md`](proportional-representation.md).
 Scope conventions as in
 [`definition-of-bias-objections.md`](definition-of-bias-objections.md).
 
+
+> ## Re-triaged under the engineering scope
+>
+> See [`scope.md`](scope.md). The research implements treatment; it does not
+> argue what is fair. Normative objections are inputs the framework consumes,
+> not results it owes. Statuses below are updated accordingly — an objection
+> marked `[scoped-out]` is not answered, it is **not this paper's to answer**,
+> and usually needs one sentence of scope declaration rather than a defence.
+
 **Status key:** `[live]` · `[resolved]` (say where) · `[scoped-out]`
 
 > **Legal claims below are from memory and unverified.** They are recorded as
@@ -13,7 +22,13 @@ Scope conventions as in
 
 ---
 
-## 1. The legal analogy may cut against the idea — `[live]`
+## 1. The legal analogy may cut against the idea — `[scoped-out]`
+
+> **Scoped out.** The analogy is motivational framing, not a load-bearing
+> premise, and the paper does not argue from law. Keep it brief and accurate
+> in the introduction, or drop it. The verification burden was only worth
+> carrying if the argument rested on it — it does not.
+
 
 The fragment reads legal equality as supporting proportional group
 representation. It is worth checking whether the same systems explicitly
@@ -89,7 +104,12 @@ should be argued explicitly rather than inherited from framing. It is also the
 same open question as idea 1's operational test for harm, appearing a third
 time; three appearances suggests it is the central problem, not a loose end.
 
-## 4. "Criminal acts, indictments" is a loaded example of legitimate diminishment — `[live]`
+## 4. "Criminal acts, indictments" is a loaded example — `[scoped-out]`
+
+> **Scoped out.** Illustrative phrasing in a normative aside. Swap the
+> example if the aside survives into the paper; nothing downstream depends
+> on it.
+
 
 Two separate issues.
 

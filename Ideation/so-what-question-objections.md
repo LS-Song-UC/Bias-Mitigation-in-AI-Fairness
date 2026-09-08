@@ -5,11 +5,26 @@ Parallel to [`so-what-question.md`](so-what-question.md). Scope conventions as i
 test the idea as a standalone fragment, and may already be answered, be out of
 scope, or dissolve as the framework is captured.
 
+
+> ## Re-triaged under the engineering scope
+>
+> See [`scope.md`](scope.md). The research implements treatment; it does not
+> argue what is fair. Normative objections are inputs the framework consumes,
+> not results it owes. Statuses below are updated accordingly — an objection
+> marked `[scoped-out]` is not answered, it is **not this paper's to answer**,
+> and usually needs one sentence of scope declaration rather than a defence.
+
 **Status key:** `[live]` · `[resolved]` (say where) · `[scoped-out]`
 
 ---
 
-## 1. Evidential support is not the same as legitimacy — `[live]`
+## 1. Evidential support is not the same as legitimacy — `[scoped-out]`
+
+> **Scoped out as philosophy, retained as a design parameter.** The paper
+> does not have to settle whether evidential support confers legitimacy. It
+> does have to state which test its licensing check implements, since that
+> choice is code. Declare it; do not defend it.
+
 
 The criterion the fragment leans on is evidential: *Asian → bad driver* is
 harmful because there is no conclusive evidence for it. That handles pure
@@ -30,7 +45,13 @@ specifically, treating evidentially-grounded structural harm as a distinct
 problem. The causal-pathway framing already noted in the idea may do this work
 for free — a licensed pathway is not merely a supported one.
 
-## 2. "Conclusive" is carrying a lot of weight — `[live]`
+## 2. "Conclusive" is carrying a lot of weight — `[live]`, **promoted to central**
+
+> **This is now an engineering requirement.** A threshold that cannot be
+> computed cannot be implemented. Whatever "conclusive" resolves to must be
+> a quantity the system evaluates at runtime — which makes this the most
+> load-bearing open question in the diagnosis half.
+
 
 The fragment distinguishes conclusive evidence from historical narrative, but
 the space between them is where the difficult cases live. Almost nothing in

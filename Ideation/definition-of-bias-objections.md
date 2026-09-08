@@ -22,12 +22,27 @@ paper — not as debts this fragment owes on its own. An objection that is
 answered elsewhere in the programme should be marked resolved here with a
 pointer, not argued with.
 
+
+> ## Re-triaged under the engineering scope
+>
+> See [`scope.md`](scope.md). The research implements treatment; it does not
+> argue what is fair. Normative objections are inputs the framework consumes,
+> not results it owes. Statuses below are updated accordingly — an objection
+> marked `[scoped-out]` is not answered, it is **not this paper's to answer**,
+> and usually needs one sentence of scope declaration rather than a defence.
+
 **Status key:** `[live]` still open · `[resolved]` answered (say where) ·
 `[scoped-out]` not something the research claims
 
 ---
 
-## 1. Accurate-but-harmful bias — `[live]` (narrowed)
+## 1. Accurate-but-harmful bias — `[scoped-out]`
+
+> **Scoped out.** Whether accurate-but-harmful prediction is "really" bias
+> is a normative question. The paper needs only to declare what its detector
+> targets — unlicensed attribution — and note that label-generation injustice
+> is a distinct problem it does not treat. One sentence, not a defence.
+
 
 > **Update.** [`so-what-question.md`](so-what-question.md) relocates harm from
 > representation to the inferential step, which absorbs part of this: the
@@ -77,7 +92,13 @@ since that is the test that failed.
 **What it would take to close.** Nothing, if the example stays illustrative. If
 the paper's boundary criterion ends up resting on it, pair it with a hard case.
 
-## 3. "Bias" is overloaded — `[live]`
+## 3. "Bias" is overloaded — `[live]`, **promoted**
+
+> **More important under the engineering scope, not less.** The sense of
+> "bias" in play determines what gets measured and what the detector fires
+> on. This is now an implementation prerequisite rather than a rhetorical
+> risk: you cannot build the instrument without fixing the referent.
+
 
 Four senses in circulation:
 

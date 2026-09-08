@@ -5,11 +5,27 @@ Parallel to
 Scope conventions as in
 [`definition-of-bias-objections.md`](definition-of-bias-objections.md).
 
+
+> ## Re-triaged under the engineering scope
+>
+> See [`scope.md`](scope.md). The research implements treatment; it does not
+> argue what is fair. Normative objections are inputs the framework consumes,
+> not results it owes. Statuses below are updated accordingly — an objection
+> marked `[scoped-out]` is not answered, it is **not this paper's to answer**,
+> and usually needs one sentence of scope declaration rather than a defence.
+
 **Status key:** `[live]` · `[resolved]` (say where) · `[scoped-out]`
 
 ---
 
-## 1. Agreement is highest exactly where being wrong costs most — `[live]`
+## 1. Agreement is highest exactly where being wrong costs most — `[live]`, **promoted to central**
+
+> **Becomes a measurement-validity problem, which is squarely in scope.** If
+> the detector is validated against human agreement, it inherits this failure
+> exactly where the research matters. This now constrains *how the system is
+> evaluated*, not merely how the idea is justified — and evaluation design is
+> the paper.
+
 
 This is the load-bearing one.
 
@@ -80,7 +96,14 @@ gender case is kept, keeping it as the *hard* case examined explicitly rather
 than the easy one assumed. The pattern from idea 1 repeats: leading with an
 example chosen for how clearly it works makes the thesis look easier than it is.
 
-## 4. The update assumes a channel that often does not exist — `[live]`
+## 4. The update assumes a channel that often does not exist — `[live]`, **promoted to core experiment**
+
+> **This inverts under the engineering scope.** For an LLM the update channel
+> *does* exist — it is the conversation. "Does the model revise an attribution
+> when corrected in context, and does the revision persist across turns?" is a
+> concrete, runnable measurement on standing models requiring no retraining.
+> The objection becomes the most tractable experiment in the programme.
+
 
 "Adjust upon the introduction of new information" presumes new information
 arrives. In deployed systems it frequently cannot: there may be no correction

@@ -43,6 +43,19 @@ this table.
 | Metcalf et al. — algorithmic impact assessment; Ada Lovelace Institute AIA work | Institutional design of impact assessment, incl. the self-assessment conflict | `[found]` |
 | Goodhart's law / Strathern formulation | Idea 5 objection 4; predicted-impact scores as targets | `[found]` |
 
+### LLM bias measurement and mitigation (added under the engineering scope)
+
+| Lead | Why we want it | Verdict |
+|---|---|---|
+| Blodgett et al., "Stereotyping Norwegian Salmon" (~2021) | Construct-validity critique of bias benchmarks. **Read before adopting any benchmark** — adopting one uncritically imports its problems | `[found]` |
+| BBQ (Parrish et al.); StereoSet (Nadeem et al.); CrowS-Pairs (Nangia et al.); WinoBias / WinoGender | Candidate evaluation suites; check each against the critique above | `[found]` |
+| HolisticBias / large-scale demographic prompt sets | Broader coverage; relevant to small-group measurement in idea 5 | `[found]` |
+| Activation steering / representation engineering; INLP null-space projection | Inference-time intervention without retraining — fits the "standing systems" constraint | `[found]` |
+| Self-debiasing via prompting (Schick et al.) | Cheapest attachment point; likely the baseline to beat | `[found]` |
+| Counterfactual data augmentation for bias mitigation | The retraining-based alternative; useful as contrast | `[found]` |
+| In-context belief revision / sycophancy literature | Idea 4's core experiment: does a model revise on correction, and does it persist? Sycophancy work is the confound — revision may be compliance, not updating | `[found]` |
+| Capability-retention benchmarks (MMLU, HELM, or task-specific) | Idea 1's performance-tax claim is only as good as the capability measure used | `[found]` |
+
 ## Searches run
 
 Record these so the review is reproducible and so we do not repeat work.

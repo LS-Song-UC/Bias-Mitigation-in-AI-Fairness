@@ -5,6 +5,19 @@ Parallel to
 Scope conventions as in
 [`definition-of-bias-objections.md`](definition-of-bias-objections.md).
 
+
+> ## Re-triaged under the engineering scope
+>
+> See [`scope.md`](scope.md). The research implements treatment; it does not
+> argue what is fair. Normative objections are inputs the framework consumes,
+> not results it owes. Statuses below are updated accordingly — an objection
+> marked `[scoped-out]` is not answered, it is **not this paper's to answer**,
+> and usually needs one sentence of scope declaration rather than a defence.
+
+> Idea 5's objections are already engineering-shaped — metric family, uncertainty
+> reporting, and assessment feasibility — so none change status. They become more
+> central, not less.
+
 **Status key:** `[live]` · `[resolved]` (say where) · `[scoped-out]`
 
 ---
