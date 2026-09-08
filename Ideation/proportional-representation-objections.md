@@ -56,7 +56,20 @@ it is the formal reason the question is genuinely open rather than settled by
 the analogy, and it sharpens what the paper is asking. It does, though, remove
 the analogy's power to *support* proportionality.
 
-## 3. The synthesis makes disparity easy to rationalise — `[live]`
+## 3. The synthesis makes disparity easy to rationalise — `[live]` (narrowed)
+
+> **Update.** [`identification-beyond-reasonable-doubt.md`](identification-beyond-reasonable-doubt.md)
+> proposes the missing account: the default is that a well-evidenced hypothesis
+> is licensed (burden on the challenger), *conditional on* a duty to revise when
+> contrary information arrives. The update duty is what stops the licence from
+> becoming a rationalisation engine.
+>
+> Two things keep this open. The duty is only as strong as its enforcement — see
+> objection 4 there, on update channels that do not exist in practice. And the
+> threshold licensing the initial hypothesis is still unset. So the *shape* of
+> the answer now exists; the calibration does not.
+
+### Original statement
 
 This targets the candidate synthesis in the idea file, not the captured idea.
 

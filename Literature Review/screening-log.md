@@ -34,6 +34,9 @@ this table.
 | Canadian Charter s.15(1) and s.15(2); Andrews; Kapp | Ameliorative programs may be permitted where US law forbids them — the jurisdictional split | `[check]` |
 | Felony disenfranchisement and disparate impact | Idea 3 objection 4; the contested example | `[found]` |
 | Demographic / statistical parity — original formulation | Idea 3 has a direct formal counterpart; establish whether the contribution is the criterion or its justification | `[found]` |
+| Keyes, "The Misgendering Machines" (~2018) | The critical literature on automatic gender recognition; idea 4 objection 3. Read before the example is kept | `[found]` |
+| Reiter — default logic; McCarthy — circumscription | Non-monotonic reasoning: conclusions held by default, withdrawn on defeaters. Formal home for idea 4 | `[found]` |
+| Legal standards of proof — BARD / clear and convincing / preponderance | Idea 4 objection 2; the standard invoked must match the threshold set, and its error asymmetry stated | `[check]` |
 
 ## Searches run
 

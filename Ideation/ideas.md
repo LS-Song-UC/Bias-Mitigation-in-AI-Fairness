@@ -4,6 +4,19 @@ Newest at the top. See `README.md` for status markers and the promotion gate.
 
 ---
 
+## [thinking] Unbiased Identification Beyond a Reasonable Doubt
+
+Inference is defeasible, not forbidden: a well-evidenced first hypothesis is
+licensed, conditional on a duty to revise when new information arrives.
+Unwarranted skepticism collapses the structure of inference.
+
+Full note: [`identification-beyond-reasonable-doubt.md`](identification-beyond-reasonable-doubt.md)
+Stress-tests: [`identification-beyond-reasonable-doubt-objections.md`](identification-beyond-reasonable-doubt-objections.md)
+
+**Partially answers the recurring burden-of-proof question** — default licensed,
+burden on the challenger, conditional on an update duty. Threshold and
+enforcement still open.
+
 ## [thinking] Proportional Representation
 
 Should a 10% group get exactly 10% of representation/consideration? Posed as an
