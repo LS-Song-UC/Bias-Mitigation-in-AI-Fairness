@@ -14,6 +14,11 @@ parity, defeasible reasoning, absolute-vs-relative effect) are **machinery to
 build with**, not rivals to argue against. The contribution is the treatment
 pipeline and its implementation, not a new conception of fairness.
 
+> **Half the picture.** A separate system-side framework exists and will be
+> introduced later — see [`system-side-framework.md`](system-side-framework.md).
+> Several open questions below are plausibly answered there. Hold them open
+> rather than solving them here.
+
 ## Shape so far
 
 The five ideas divide into two stages, and keeping them apart is what stops the
@@ -47,10 +52,11 @@ framework diagnoses correctly, and whether it treats effectively.
   *what* default (5). Does decisive work in both, and in an implementation it is
   a parameter someone has to actually set.
 
-**Now the more pressing question:** where treatment attaches. "Standing systems"
-implies no retraining, which narrows the surface to output filtering,
-inference-time steering, in-context correction, and activation editing. That
-choice determines what can be built and measured at all — see `scope.md`.
+**Intervention surface — decided.** The research targets **intra-processing**
+(treating an already-trained model) and **in-training / in-processing**
+(intervening in the objective). Pre- and post-processing are out. The pairing
+gives a natural contrast: the same treatment where you control training versus
+where you do not. See [`scope.md`](scope.md).
 
 ---
 

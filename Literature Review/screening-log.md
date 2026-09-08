@@ -55,6 +55,10 @@ this table.
 | Counterfactual data augmentation for bias mitigation | The retraining-based alternative; useful as contrast | `[found]` |
 | In-context belief revision / sycophancy literature | Idea 4's core experiment: does a model revise on correction, and does it persist? Sycophancy work is the confound — revision may be compliance, not updating | `[found]` |
 | Capability-retention benchmarks (MMLU, HELM, or task-specific) | Idea 1's performance-tax claim is only as good as the capability measure used | `[found]` |
+| Savani et al. — "Intra-Processing Methods for Debiasing Neural Networks" (~2020) | Believed to be the originating paper for the term; **cite when "intra-processing" is introduced**. Verify authorship and year | `[check]` |
+| Mehrabi et al. — survey on bias and fairness in ML; Caton & Haas — fairness in ML survey | Establish the pre/in/intra/post taxonomy and where our two arms sit within it | `[found]` |
+| In-processing fairness constraints (regularisation, adversarial debiasing; Zhang et al.) | The in-training arm's prior art | `[found]` |
+| Pruning / neuron editing for bias; model editing (ROME, MEMIT) | Intra-processing sub-methods; candidate attachment points | `[found]` |
 
 ## Searches run
 

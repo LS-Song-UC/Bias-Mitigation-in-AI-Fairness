@@ -30,26 +30,42 @@ it produces. Anything that asks *can this be built, measured, and shown to work*
 is squarely in scope, and several such objections should be promoted from
 side-notes to central problems.
 
-## What this raises instead
+## Intervention surface — decided
 
-"Standing LLMs and AI systems" is a strong constraint, and probably a productive
-one: it implies **treatment without retraining**. That narrows the intervention
-surface hard, and the narrowing is likely part of the contribution.
+**Correction to an earlier inference here.** I had read "standing LLMs" as
+implying treatment *without retraining*, and narrowed the surface accordingly.
+That was too narrow: the author is investigating **intra-processing and
+in-training methods**, so training-time intervention is in scope.
 
-Candidate attachment points, cheapest and most reversible first:
+The field's standard taxonomy has four stages. Worth adopting the conventional
+names for legibility, since reviewers will expect them:
 
-| Where treatment attaches | Retraining? | Reversible? |
+| Stage | Acts on | In scope |
 |---|---|---|
-| Output filtering / post-processing | No | Fully |
-| Inference-time steering, system prompts, in-context correction | No | Fully |
-| Activation / representation editing | No | Mostly |
-| Lightweight adaptation (LoRA, adapters) | Partial | Mostly |
-| Fine-tuning (SFT, RLHF, DPO) | Yes | No |
-| Pre-training data intervention | Yes | No |
+| **Pre-processing** | Training data, before learning | No |
+| **In-processing** *(= "in-training")* | The objective / learning procedure | **Yes** |
+| **Intra-processing** | An already-trained model, before or at deployment — fine-tuning, pruning, neuron editing, inference-time modification | **Yes** |
+| **Post-processing** | Model outputs only | No |
 
-The first three are the ones compatible with "standing" systems. Deciding which
-the research targets is now a more pressing question than any definitional one,
-because it determines what can be built and measured at all.
+*Terminology note:* "in-training" maps onto what the literature calls
+**in-processing**. Using the established term costs nothing and buys immediate
+recognition; "intra-processing" is itself a comparatively recent coinage with a
+specific originating paper, so it is worth citing that source when the term is
+introduced. Leads logged.
+
+**Why this pairing is a good choice.** Intra-processing is precisely the
+category built for standing systems — it assumes a trained model you did not
+train and cannot re-train from scratch. Pairing it with in-processing gives a
+natural contrast: the same treatment concept applied where you *do* control
+training versus where you *do not*, which is a comparison the framework's
+diagnosis/treatment split is well suited to make. That contrast may be more
+publishable than either arm alone.
+
+**What it opens up.** Objections that assumed no training access relax: some of
+the diagnosis machinery can be built into the objective rather than bolted on
+afterwards. It also raises a question the earlier framing did not: does the
+same treatment produce the same effect at both stages, and if not, which
+difference is informative?
 
 ## The mapping worth working out
 
@@ -69,7 +85,10 @@ on existing models that needs no retraining and produces a number.
 
 ## Open questions
 
-- Which attachment point, and is the choice a finding or an assumption?
+- Does the same treatment behave equivalently in-processing and
+  intra-processing? A divergence would itself be a result.
+- For the intra-processing arm, which sub-method: fine-tuning, pruning, neuron
+  or activation editing, or inference-time modification?
 - Which models, and does the treatment transfer across them?
 - What is the benchmark? Existing bias benchmarks face serious construct-validity
   criticism, so adopting one uncritically imports its problems. Leads logged.
