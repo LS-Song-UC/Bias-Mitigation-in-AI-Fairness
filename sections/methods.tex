@@ -1,0 +1,30 @@
+\section{Methods}
+\label{sec:methods}
+
+\subsection{Setup}
+
+Inline math like $f : \R^n \to \R$, and display math:
+\begin{equation}
+  \label{eq:objective}
+  \min_{x \in \R^n} \; \tfrac{1}{2}\|Ax - b\|_2^2 + \lambda \|x\|_1 .
+\end{equation}
+Refer back to it as \eqref{eq:objective}. Equations too wide for a column
+have no good automatic fix: either break them manually with \texttt{split},
+or promote them with the \texttt{equation*} + \texttt{figure*} pattern.
+
+\begin{definition}[Feasible point]
+\label{def:feasible}
+A point $x$ is feasible if it satisfies every constraint of the problem.
+\end{definition}
+
+\begin{theorem}
+\label{thm:main}
+Under the conditions of Definition~\ref{def:feasible}, the objective in
+\eqref{eq:objective} admits a minimiser.
+\end{theorem}
+
+\begin{proof}
+Sketch the argument here, or delete the environment.
+\end{proof}
+
+\todo{describe the data collection procedure}

@@ -1,0 +1,49 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{A single-column figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{placeholder}
+  \caption{A column-width figure. Use \texttt{width=\textbackslash linewidth}
+           rather than \texttt{\textbackslash textwidth}: in two-column mode
+           \texttt{\textbackslash textwidth} is the width of the whole page,
+           so the image would overflow into the gutter.}
+  \label{fig:example}
+\end{figure}
+
+\subsection{A full-width figure}
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.9\textwidth]{placeholder}
+  \caption{The starred form \texttt{figure*} spans both columns. Here
+           \texttt{\textbackslash textwidth} \emph{is} the right unit.
+           Starred floats can only be placed at the top of a page
+           (\texttt{[t]}) and never on the page where they are defined ---
+           so declare them a little earlier in the source than you want
+           them to appear.}
+  \label{fig:wide}
+\end{figure*}
+
+\subsection{A table}
+
+\begin{table}[t]
+  \centering
+  \caption{Booktabs style, sized to fit one column.}
+  \label{tab:example}
+  \small
+  \begin{tabular}{lrr}
+    \toprule
+    Method & Acc. & Time (s) \\
+    \midrule
+    Baseline    & 0.812 & 14.2 \\
+    Ours        & 0.887 &  9.6 \\
+    Ours (+aug) & \textbf{0.901} & 11.3 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\autoref{tab:example} reports the comparison, \autoref{fig:example} shows the
+overview, and \autoref{fig:wide} spans the page.

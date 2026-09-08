@@ -1,0 +1,120 @@
+% ============================================================
+%  main.tex  --  root document
+%  Overleaf auto-detects a file named main.tex as the root.
+%  Compiler: pdfLaTeX (set in Overleaf: Menu -> Compiler)
+%  Bibliography: BibTeX + natbib  (refs.bib)
+%
+%  Nothing enters this document straight from "Ideation/" or
+%  "Literature Review/". Those are staging areas; content is discussed and
+%  curated first, then written into sections/ and refs.bib deliberately.
+%  See WORKFLOW.md.
+% ============================================================
+\documentclass[10pt,twocolumn,a4paper]{article}
+% 10pt is the two-column convention: 11pt in a ~3.2in column gives too few
+% characters per line and the justification gets gappy.
+
+% ---------- Layout ----------
+\usepackage[margin=0.85in]{geometry}
+\setlength{\columnsep}{0.28in}  % gutter between the two columns
+\usepackage{microtype}          % matters more here: narrow columns justify badly
+% \usepackage{balance}          % see the Overleaf-only block below
+
+% ---------- Encoding & fonts ----------
+\usepackage{lmodern}             % scalable Latin Modern (needed by microtype)
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}     % harmless on modern TeX; required by some journals
+
+% ---------- Math ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+% ---------- Graphics & tables ----------
+\usepackage{graphicx}
+\graphicspath{{figures/}}       % so \includegraphics{plot} finds figures/plot.pdf
+\usepackage{booktabs}           % \toprule \midrule \bottomrule
+\usepackage{caption}
+
+% ---------- Color & links ----------
+\usepackage{xcolor}
+\usepackage[colorlinks=true,
+            linkcolor=blue!60!black,
+            citecolor=green!50!black,
+            urlcolor=blue!60!black]{hyperref}
+
+% ---------- Bibliography ----------
+\usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{plainnat}    % try: unsrtnat, abbrvnat, ieeetr, plain
+
+% ---------- Available on Overleaf, not in local BasicTeX ----------
+% Uncomment once you're compiling on Overleaf (or run: sudo tlmgr install <pkg>)
+% \usepackage{cleveref}         % \cref{fig:example} -> "Figure 1"
+% \usepackage{siunitx}          % \SI{9.8}{\meter\per\second\squared}
+% \usepackage{enumitem}         % list spacing control
+% \usepackage{balance}          % \balance before \end{document} evens the
+%                               % two columns on the final page. Two-column
+%                               % papers look unfinished without it.
+
+% ---------- Theorem environments ----------
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+
+% \autoref needs to be told these names; without this it calls every
+% shared-counter environment "Theorem", and sections "section" (lowercase).
+% (\providecommand first: hyperref already defines some of these.)
+% Caveat: \autoref picks the name from the *counter*, so a shared-counter
+% environment (definition/lemma below) autorefs as "Theorem". Either give it
+% its own counter, write "Definition~\ref{...}" by hand, or use cleveref's
+% \cref, which gets this right.
+\providecommand{\theoremautorefname}{}\renewcommand{\theoremautorefname}{Theorem}
+\providecommand{\lemmaautorefname}{}\renewcommand{\lemmaautorefname}{Lemma}
+\providecommand{\definitionautorefname}{}\renewcommand{\definitionautorefname}{Definition}
+\providecommand{\sectionautorefname}{}\renewcommand{\sectionautorefname}{Section}
+\providecommand{\subsectionautorefname}{}\renewcommand{\subsectionautorefname}{Section}
+
+% ---------- Handy macros ----------
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+% ============================================================
+\title{A Working Title for the Paper}
+\author{%
+  Letian Song\\
+  \small Department / Affiliation\\
+  \small \texttt{les12223@gmail.com}
+}
+\date{\today}
+
+\makeatletter
+\begin{document}
+
+% In twocolumn mode \maketitle spans both columns but the abstract does NOT --
+% it would land in column 1 only. This is the standard idiom to span both.
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+      \noindent
+      Replace this with the abstract. One paragraph, no citations if the venue
+      forbids them, and written last even though it appears first.
+    \end{abstract}
+    \vspace{1.5em}
+  \end{@twocolumnfalse}
+]
+\makeatother
+
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/conclusion}
+
+% \balance   % uncomment on Overleaf: evens out the final page's columns
+\bibliography{refs}
+
+\appendix
+\section{Supplementary Material}
+\label{app:supp}
+Optional. Delete the \verb|\appendix| block if unused.
+
+\end{document}
