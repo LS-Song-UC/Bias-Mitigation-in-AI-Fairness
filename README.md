@@ -96,3 +96,29 @@ or `sudo tlmgr install cleveref siunitx enumitem balance` to use them here too.
 
 For Chinese text you would want `\usepackage{ctex}` and the **XeLaTeX**
 compiler — present on Overleaf, needs `sudo tlmgr install ctex` here.
+
+## License
+
+Dual-licensed, split by what the file *is*:
+
+| | |
+|---|---|
+| **CC BY 4.0** | The manuscript and research material — `main.tex`, `sections/`, `figures/`, `refs.bib`, `Ideation/`, `Literature Review/` |
+| **MIT** | The code — `build.sh`, `clean.sh`, `package.sh`, and any scripts added later |
+
+Full texts: [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt) and [`LICENSE`](LICENSE).
+
+MIT is a software licence: it talks about "the Software", warranties, and
+liability, and says nothing useful about attribution for a piece of writing.
+CC BY 4.0 is the standard for manuscripts and is what most open-access funder
+mandates require — it permits reuse and adaptation provided the work is
+credited.
+
+GitHub will report this repository as MIT, since that is what `LICENSE`
+contains. That is deliberate: it keeps automated tooling correct about the code.
+This section is the authoritative statement for everything else.
+
+**If this paper is submitted to a venue**, check the copyright agreement before
+relying on the above. Some publishers require an exclusive transfer that
+supersedes a prior CC licence for the version of record, though most permit a
+CC BY preprint to remain posted.
