@@ -9,6 +9,23 @@ The `Why` column is the valuable part — an entry without a reason is not done.
 | `lamport1994latex` | Lamport 1994, *LaTeX* | `[include]` | Example row — delete. |
 |  |  | `[found]` |  |
 
+## Leads from discussion (unverified)
+
+Named from memory while discussing *Definition of Bias* — **none of these have
+been checked**. Titles, authors and years may be wrong or conflated. Verify each
+against the primary source before it moves past `[found]`, and never cite from
+this table.
+
+| Lead | Why we want it | Verdict |
+|---|---|---|
+| Barocas, Hardt & Narayanan, *Fairness and Machine Learning* (textbook) | Standard reference; should fix terminology across the four senses of "bias" | `[found]` |
+| Corbett-Davies & Goel, "The Measure and Mismeasure of Fairness" | Argues against naive blindness — may be close to our thesis, or may pre-empt it | `[found]` |
+| Kleinberg, Mullainathan & Raghavan — fairness impossibility result | Calibration vs error-rate balance cannot both hold; supports "which bias must be chosen" | `[found]` |
+| Chouldechova — disparate impact / recidivism | The accurate-but-harmful case, objection 1 in the note | `[found]` |
+| Dwork et al., "Fairness Through Awareness" | Origin of the awareness-over-blindness position | `[found]` |
+| Wolpert — no free lunch | Formal grounding for "inductive bias is necessary" | `[found]` |
+| eGFR race coefficient removal (clinical literature, ~2020-2021) | The hard boundary case; "biological" did not settle it | `[found]` |
+
 ## Searches run
 
 Record these so the review is reproducible and so we do not repeat work.

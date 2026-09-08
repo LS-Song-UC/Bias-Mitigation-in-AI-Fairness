@@ -4,6 +4,18 @@ Newest at the top. See `README.md` for status markers and the promotion gate.
 
 ---
 
+## [thinking] Definition of Bias
+
+Bias is agnostic until proven harmful; most inherited bias is benign and
+load-bearing context, so indiscriminate mitigation costs performance for
+nothing. The research targets *harmful* bias — conclusions drawn through
+improper summarization that misrepresent demographics.
+
+Full note: [`definition-of-bias.md`](definition-of-bias.md)
+
+**Blocking before promotion:** no operational test for "harmful" yet, and the
+accurate-but-harmful case is unaddressed.
+
 ## [raw] Example entry — delete me
 
 **The idea.** One or two sentences. What is the claim?
